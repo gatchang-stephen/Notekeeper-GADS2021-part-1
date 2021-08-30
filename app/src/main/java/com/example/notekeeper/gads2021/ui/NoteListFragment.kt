@@ -49,6 +49,10 @@ class NoteListFragment : Fragment() {
             activity?.findNavController(R.id.nav_host_fragment_content_main)?.navigate(action)
         }
     }
+    override fun onResume() {
+        super.onResume()
+        binding.listNotes.adapter.areAllItemsEnabled()
+    }
 
     override fun onDestroyView() {
         super.onDestroyView()
