@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/NoteListFragment">
+
+    <fragment
+        android:id="@+id/NoteListFragment"
+        android:name="com.example.notekeeper.gads2021.ui.NoteListFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_note_list">
+        <action
+            android:id="@+id/action_NoteListFragment_to_NoteFragment"
+            app:destination="@id/NoteFragment"/>
+    </fragment>
+    <fragment
+        android:id="@+id/NoteFragment"
+        android:name="com.example.notekeeper.gads2021.ui.NoteFragment"
+        android:label="@string/second_fragment_label"
+    tools:layout="@layout/fragment_note">
+        <argument
+            android:name="myArg"
+            app:argType="integer"
+            android:defaultValue="-1" />
+    </fragment>
+
+</navigation>

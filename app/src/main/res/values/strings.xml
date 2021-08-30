@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Notekeeper</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Notekeeper</string>
+    <string name="second_fragment_label">Edit note</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="fab">Floating Action Button</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_notes">Notes</string>
+    <string name="menu_courses">Course</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="menu_communicate">Communicate</string>
+
+    <string name="text_view">Text View</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="note_title">Note title</string>
+    <string name="note_text">Note body</string>
+    <string name="title_activity_list">Notekeepr</string>
+    <string name="textview">Text Title</string>
+    <string name="textview1">Text Course</string>
+    <string name="icon">Icon</string>
+    <string name="title_activity_items">ItemsActivity</string>
+    <string name="note_activity">Edit Note</string>
+    <string name="recently_notes">Recently Notes</string>
+    <string name="action_reminder">Reminder</string>
+</resources>
